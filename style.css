@@ -317,11 +317,12 @@ main .team-container .testimonals{
 main .team-container .testimonals .card{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
+  padding : 1rem 0;
   height: 320px;
-  min-width:240px;
+  min-width:280px;
   max-width: 300px;
   background-color: var(--theme-3);
   border-radius: 3px;
@@ -348,7 +349,8 @@ main .team-container .testimonals .card .links-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  margin-top:3rem;
 }
 main .team-container .testimonals .card .links-container .icon{
   padding: .5rem;

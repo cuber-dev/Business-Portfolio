@@ -20,7 +20,6 @@ navCloseBtn.addEventListener("click",hideNavUl);
 window.addEventListener("click",(e) => {
     const children = e.target;
     if (!children.matches("ul") && !children.matches("button") && navListUl.classList.contains("show")) {
-        console.log("not matched");
         hideNavUl();
     }
 });
