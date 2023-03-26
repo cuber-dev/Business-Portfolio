@@ -519,7 +519,7 @@ footer .copy-right{
     height: max-content;
   }
   main .news-letter-container .mail-input-container{
-    width:95%;
+    width: 300px;
     padding: .1rem;
   }
   main .news-letter-container .mail-input-container #mail-input{
