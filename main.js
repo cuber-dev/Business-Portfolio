@@ -39,3 +39,7 @@ function handleNavUltarget(e){
 }
 
 navListUl.addEventListener("click",handleNavUltarget);
+
+window.addEventListener('load',() => {
+  navListUlAnchorTags[0].classList.add('active');
+});
