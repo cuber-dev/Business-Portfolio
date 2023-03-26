@@ -10,7 +10,7 @@
 }
 html{
   scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
+  scroll-padding-top: 5rem;
 }
 body {
   font-family: 'Roboto', sans-serif;
