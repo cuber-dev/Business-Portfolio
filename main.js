@@ -28,7 +28,7 @@ window.addEventListener("click",(e) => {
 
 function handleNavUltarget(e){
     const children = e.target;
-    if(children.matches('li')){
+    if(children.matches('a')){
       navListUlAnchorTags.forEach((e) => {
         if(e === children){
             e.classList.add("active");
