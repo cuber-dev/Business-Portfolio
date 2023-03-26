@@ -28,13 +28,15 @@ window.addEventListener("click",(e) => {
 
 function handleNavUltarget(e){
     const children = e.target;
-    navListUlAnchorTags.forEach((e) => {
+    if(children.matches('li')){
+      navListUlAnchorTags.forEach((e) => {
         if(e === children){
             e.classList.add("active");
         }else{
             e.classList.remove("active");
         }
-    });
+      });
+    }
 }
 
 navListUl.addEventListener("click",handleNavUltarget);

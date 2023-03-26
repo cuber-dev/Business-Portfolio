@@ -115,11 +115,11 @@ header .header-content-div .content-div{
   gap: 1rem;
 }
 header .header-content-div .content-div .content-header{
-  line-height: 1.8rem;
-  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-size: 1.9rem;
 }
 header .header-content-div .content-div .content-para{
-  font-size: .8rem;
+  font-size: .9rem;
   min-width: 80%;
   max-width: 320px;
   line-height:1.3rem;
@@ -164,6 +164,9 @@ main .content-container{
   margin-bottom: 10rem;
   text-align: center;
 }
+main .header{
+  font-size: 1.9rem;
+}
 main .para{
   font-size: 1rem;
   min-width: 70%;
@@ -192,9 +195,10 @@ main .choose-us-div .blog-container .blog-card{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 240px;
+  height: 260px;
   width: 220px;
   border-radius: 3px;
+  gap: .5rem;
 }
 main .choose-us-div .blog-container .blog-card .icon{
   padding: 1.3rem ;
@@ -213,12 +217,12 @@ main .choose-us-div .blog-container .blog-card .icon.idea{
 }main .choose-us-div .blog-container .blog-card .icon.pen{
   background-color: #74bacc;
 }
-main .choose-us-div .blog-container .blog-card h4{
-  line-height: 1.2rem;
+main .choose-us-div .blog-container .blog-card h3{
+  line-height: 1.5rem;
 }
 main .choose-us-div .blog-container .blog-card p{
-  font-size:.8rem;
-  line-height: 1.3rem;
+  font-size: .9rem;
+  line-height: 1.5rem;
 }
 
 
@@ -424,12 +428,15 @@ footer .footer-content-container .content-container{
   align-items: flex-start;
   height: 200px;
   width: 220px;
-  gap: .3rem;
-  line-height: 1.3rem;
+  gap: .2rem;
+  line-height: 1.4rem;
+}
+footer .footer-content-container .content-container h2{
+  margin-bottom: .5rem;
 }
 footer .footer-content-container .content-container .about-us-para,
 footer .footer-content-container .content-container a{
-  font-size: .8rem;
+  font-size: .9rem;
 }
 footer .footer-content-container .content-container a{
   padding: 3px;
@@ -509,7 +516,7 @@ footer .copy-right{
     padding: 0 .5rem;
   }
   header .header-content-div .content-div{
-    width: 80%;
+    width: 92%;
   }
 
   main .team-container .testimonals,
