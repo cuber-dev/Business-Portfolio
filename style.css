@@ -34,7 +34,7 @@ header{
   display: flex;
   flex-direction: column;
   padding: 1.3rem 0rem;
-  gap: 3rem;
+  gap: 5rem;
 }
 header nav{
   display: flex;
