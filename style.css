@@ -281,6 +281,7 @@ main .customers-container .customers-inline-contaniner .cutomers-images-containe
   height: 75px;
   width: 70px;
   object-fit: cover;
+  display: block;
   border-radius: 50%;
 }
 main .customers-container .customers-inline-contaniner .ratings{
@@ -461,7 +462,7 @@ footer .copy-right{
     top: 0;
     right: 0;
     left: 0;
-    padding: .3rem .5rem;
+    padding: 1rem .5rem;
     background-color: var(--theme-1);
     z-index: 21;
   }
@@ -477,8 +478,8 @@ footer .copy-right{
     bottom: 0;
     justify-content: start;
     align-items: flex-end;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 1.5rem;
+    padding: 1.5rem;
     background-color: var(--theme-1);
     z-index: 222;
     transition: 300ms all ease-in;
@@ -488,6 +489,16 @@ footer .copy-right{
   }
   nav .nav-list li{
     text-align: end;
+    width:95%;
+  }
+  nav .nav-list li a{
+    padding: .7rem 1rem;
+    display: block;
+    width:100%;
+    border-right: 4px solid transparent;
+  }
+  nav .nav-list a.active{
+    border-right: 4px solid var(--theme-2);
   }
   nav #nav-list-close-btn{
     display: block;
