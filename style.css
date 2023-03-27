@@ -5,8 +5,6 @@
   --theme-3 : #211C5C;
   --white : #fff;
   --black : #000;
-
-  --size-1 : 14px;
 }
 html{
   scroll-behavior: smooth;
@@ -49,11 +47,6 @@ header nav{
 nav .logo-container h1{
   font-size: 2.1rem;
 }
-
-
-
-
-
 nav .nav-list{
   list-style: none;
   display: flex;
@@ -326,8 +319,8 @@ main .team-container .testimonals .card{
   align-items: center;
   gap: 1rem;
   padding : 1rem 0;
-  height: 320px;
-  min-width:280px;
+  height: 300px;
+  min-width:225px;
   max-width: 300px;
   background-color: var(--theme-3);
   border-radius: 3px;
@@ -354,8 +347,8 @@ main .team-container .testimonals .card .links-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
-  margin-top:3rem;
+  width: 90%;
+  margin-top:2rem;
 }
 main .team-container .testimonals .card .links-container .icon{
   padding: .5rem;
@@ -463,7 +456,14 @@ footer .copy-right{
   }
   header .header-content-div{
     flex-direction: column-reverse;
+    padding: 0 .5rem;
   }
+  header .header-content-div .content-div{
+    width: 92%;
+  }
+
+
+
   header nav{
     position: fixed;
     top: 0;
@@ -512,21 +512,19 @@ footer .copy-right{
     margin-bottom: 1rem;
   }
 
-  header .header-content-div{
-    padding: 0 .5rem;
-  }
-  header .header-content-div .content-div{
-    width: 92%;
-  }
 
+
+  
   main .team-container .testimonals,
   footer .footer-content-container{
     flex-direction: column;
   }
+  
 
 
-
-
+  main .team-container .testimonals .card{
+    width: 250px;
+  }
   main{
     padding: .7rem;
   }
