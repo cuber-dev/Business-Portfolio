@@ -115,8 +115,8 @@ header .header-content-div .content-div{
   gap: 1rem;
 }
 header .header-content-div .content-div .content-header{
-  line-height: 2.2rem;
-  font-size: 1.9rem;
+  line-height: 2.1rem;
+  font-size: 1.8rem;
 }
 header .header-content-div .content-div .content-para{
   font-size: .9rem;
@@ -165,7 +165,7 @@ main .content-container{
   text-align: center;
 }
 main .header{
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 main .para{
   font-size: 1rem;
