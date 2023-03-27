@@ -196,6 +196,7 @@ main .choose-us-div .blog-container .blog-card{
   flex-direction: column;
   justify-content: space-between;
   width: 220px;
+  height: max-content;
   gap: .7rem;
   border-radius: 3px;
 }
@@ -532,7 +533,6 @@ footer .copy-right{
   main .choose-us-div .blog-container .blog-card{
     width: 90%;
     gap: 1rem;
-    height: max-content;
   }
   main .news-letter-container .mail-input-container{
     width: 300px;
